@@ -1,0 +1,20 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "AFSB Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "AFSB Web App"
+  },
+  "repository": {
+    "type": "git",
+    "url": "AFSB Web App"
+  },
+  "keywords": [
+    "AFSB",
+    "Web",
+    "App"
+  ],
+  "author": "AFSB",
+  "license": "ISC"
+}
