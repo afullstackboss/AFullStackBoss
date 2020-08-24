@@ -393,6 +393,67 @@ y = x * 10;
 document.getElementById("id23").innerHTML = y;
 </script>
 
+<h2>JavaScript Comments are NOT Executed</h2>
+<p id="id24"></p>
+<script>
+var x;
+x = 5;
+// x = 6; I will not be executed
+document.getElementById("id24").innerHTML = x;
+</script>
+
+<h2>JavaScript is Case Sensitive</h2>
+<p>Try change lastName to lastname.</p>
+<p id="id25"></p>
+<script>
+var lastname, lastName;
+lastName = "Doe";
+lastname = "Peterson";
+document.getElementById("id25").innerHTML = lastName;
+</script>
+
+<h1 id="myH"></h1>
+<p id="myP"></p>
+<script>
+// Change heading:
+document.getElementById("myH").innerHTML = "JavaScript Comments";
+// Change paragraph:
+document.getElementById("myP").innerHTML = "My first paragraph.";
+</script>
+
+<h2>JavaScript Comments</h2>
+<p id="id126"></p>
+<script>
+var x = 5;    // Declare x, give it the value of 5
+var y = x + 2;  // Declare y, give it the value of x + 2 
+// Write y to demo:
+document.getElementById("id126").innerHTML = y;
+</script>
+
+<h1 id="myH1"></h1>
+<p id="myP1"></p>
+<script>
+/*
+The code below will change
+the heading with id = "myH"
+and the paragraph with id = "myP"
+*/
+document.getElementById("myH1").innerHTML = "JavaScript Comments";
+document.getElementById("myP1").innerHTML = "My first paragraph.";
+</script>
+
+<h2>JavaScript Comments</h2>
+<h1 id="myH2"></h1>
+<p id="myP2"></p>
+<script>
+//document.getElementById("myH").innerHTML = "My First Page";
+document.getElementById("myP2").innerHTML = "My first paragraph.";
+</script>
+
+<p>The line starting with // is not executed.</p>
+
+
+
 
 </main><!-- /.container -->
 
