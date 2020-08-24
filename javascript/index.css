@@ -19,7 +19,7 @@ body{
 	padding: 5px;
 	border: 10px;
 	border-color: blue;
-	background-color: black;
+	
 	border-style: ridge;
 	box-shadow: 50px;
 	border-radius: 22px;	
@@ -39,4 +39,28 @@ body{
 	border-radius: 22px;	
 	}
 
+#r1 #r2 #r3 #r5 #r6 #r7{
+	color: white;
+	font-size: .4em;
+	text-align: center;
+	padding: 5px;
+	border: 10px;
+	border-color: blue;
+	background-color: white;
+	border-style: ridge;
+	box-shadow: 30px;
+	border-radius: 22px;	
+	}
+
 	
+ol{
+	background-color: blue;
+	padding: 20px;
+	color: white;
+}
+
+#f1{
+	
+	padding: 20px;
+	
+}
