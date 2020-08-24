@@ -1,0 +1,42 @@
+p{
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	padding: 5px;
+	border: 10px;
+	border-color: blue;
+	background-color: blue;
+	border-style: ridge;
+	box-shadow: 30px;
+	border-radius: 22px;	
+}
+
+body{
+
+	background-color: white; 
+	font-size: 3em;
+	text-align: center;
+	padding: 5px;
+	border: 10px;
+	border-color: blue;
+	background-color: black;
+	border-style: ridge;
+	box-shadow: 50px;
+	border-radius: 22px;	
+
+	}
+
+	#id1 #id2 #id3 #id5 #id6 #id7{
+	color: white;
+	font-size: .4em;
+	text-align: center;
+	padding: 5px;
+	border: 10px;
+	border-color: blue;
+	background-color: blue;
+	border-style: ridge;
+	box-shadow: 30px;
+	border-radius: 22px;	
+	}
+
+	
