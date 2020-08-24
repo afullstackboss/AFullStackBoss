@@ -449,9 +449,207 @@ document.getElementById("myP1").innerHTML = "My first paragraph.";
 //document.getElementById("myH").innerHTML = "My First Page";
 document.getElementById("myP2").innerHTML = "My first paragraph.";
 </script>
-
 <p>The line starting with // is not executed.</p>
 
+<h2>JavaScript Comments</h2>
+<h1 id="myH3"></h1>
+<p id="myP3"></p>
+<script>
+/*
+document.getElementById("myH").innerHTML = "Welcome to my Homepage";
+document.getElementById("myP").innerHTML = "This is my first paragraph.";
+*/
+document.getElementById("myP3").innerHTML = "The comment-block is not executed.";
+</script>
+
+<h2>JavaScript Variables</h2>
+<p>In this example, x, y, and z are variables.</p>
+<p id="126"></p>
+<script>
+var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("126").innerHTML =
+"The value of z is: " + z;
+</script>
+
+<h2>JavaScript Variables</h2>
+<p id="id127"></p>
+<script>
+var price1 = 5;
+var price2 = 6;
+var total = price1 + price2;
+document.getElementById("127").innerHTML =
+"The total is: " + total;
+</script>
+
+<h2>JavaScript Variables</h2>
+<p>Strings are written with quotes.</p>
+<p>Numbers are written without quotes.</p>
+<p id="128"></p>
+<script>
+var pi = 3.14;
+var person = "John Doe";
+var answer = 'Yes I am!';
+
+document.getElementById("128").innerHTML =
+pi + "<br>" + person + "<br>" + answer;
+</script>
+
+<h2>JavaScript Variables</h2>
+<p>Create a variable, assign a value to it, and display it:</p>
+<p id="129"></p>
+<script>
+var carName = "Volvo";
+document.getElementById("129").innerHTML = carName;
+</script>
+
+<h2>JavaScript Variables</h2>
+<p>You can declare many variables in one statement.</p>
+<p id="130"></p>
+<script>
+var person = "John Doe", carName = "Volvo", price = 200;
+document.getElementById("130").innerHTML = carName;
+</script>
+
+
+<h2>JavaScript Variables</h2>
+<p>A variable declared without a value will have the value undefined.</p>
+<p id="131"></p>
+<script>
+var carName;
+document.getElementById("131").innerHTML = carName;
+</script>
+
+<h2>JavaScript Variables</h2>
+<p>If you re-declare a JavaScript variable, it will not lose its value.</p>
+<p id="132"></p>
+<script>
+var carName = "132";
+var carName;
+document.getElementById("132").innerHTML = carName;
+</script>
+
+<h2>JavaScript Variables</h2>
+<p>The result of adding 5 + 2 + 3:</p>
+<p id="133"></p>
+<script>
+var x = 5 + 2 + 3;
+document.getElementById("133").innerHTML = x;
+</script>
+
+<h2>JavaScript Variables</h2>
+<p>The result of adding "John" + " " + "Doe":</p>
+<p id="134"></p>
+
+<script>
+var x = "John" + " " + "Doe";
+document.getElementById("134").innerHTML = x;
+</script>
+
+<h2>JavaScript Variables</h2>
+<p>The result of adding "5" + 2 + 3:</p>
+<p id="135"></p>
+<script>
+x = "5" + 2 + 3;
+document.getElementById("135").innerHTML = x;
+</script>
+
+<h2>JavaScript Variables</h2>
+<p>The result of adding 2 + 3 + "5":</p>
+<p id="136"></p>
+<script>
+var x = 2 + 3 + "5";
+document.getElementById("136").innerHTML = x;
+</script>
+
+<h2>JavaScript $</h2>
+<p>The dollar sign is treated as a letter in JavaScript names.</p>
+<p id="137"></p>
+<script>
+var $ = 2;
+var $myMoney = 5;
+document.getElementById("137").innerHTML = $ + $myMoney;
+</script>
+
+<h2>JavaScript $</h2>
+<p>The underscore is treated as a letter in JavaScript names.</p>
+<p id="138"></p>
+<script>
+var _x = 2;
+var _100 = 5;
+document.getElementById("138").innerHTML = _x + _100;
+</script>
+
+<h2>JavaScript Functions</h2>
+<p>This example calls a function which performs a calculation, and returns the result:</p>
+<p id="139"></p>
+<script>
+function myFunction(p1, p2) {
+  return p1 * p2;
+}
+document.getElementById("139").innerHTML = myFunction(4, 3);
+</script>
+
+<h2>JavaScript Functions</h2>
+<p>This example calls a function which performs a calculation and returns the result:</p>
+<p id="140"></p>
+<script>
+var x = myFunction(4, 3);
+document.getElementById("140").innerHTML = x;
+
+function myFunction(a, b) {
+  return a * b;
+}
+</script>
+
+<h2>JavaScript Functions</h2>
+<p>This example calls a function to convert from Fahrenheit to Celsius:</p>
+<p id="141"></p>
+<script>
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+document.getElementById("141").innerHTML = toCelsius(77);
+</script>
+
+
+<h2>JavaScript Functions</h2>
+<p>Accessing a function without () will return the function definition instead of the function result:</p>
+<p id="142"></p>
+<script>
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+document.getElementById("142").innerHTML = toCelsius;
+</script>
+
+<h2>JavaScript Functions</h2>
+<p id="143"></p>
+<script>
+document.getElementById("143").innerHTML =
+"The temperature is " + toCelsius(77) + " Celsius";
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+} 
+</script>
+
+<h2>JavaScript Functions</h2>
+<p>Outside myFunction() carName is undefined.</p>
+<p id="144"></p>
+<p id="145"></p>
+<script>
+myFunction();
+
+function myFunction() {
+  var carName = "Volvo";
+  document.getElementById("144").innerHTML =
+  typeof carName + " " + carName;
+}
+
+document.getElementById("145").innerHTML =
+typeof carName;
+</script>
 
 
 
